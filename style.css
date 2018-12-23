@@ -1,0 +1,103 @@
+#aboutSection{
+    background: #282828;
+}
+
+#portSection{
+    background: #505050;
+}
+
+#contSection{
+    background: #282828	;
+}
+
+h2.header{
+    color: orange;
+}
+
+#aboutPar{
+    color: azure;
+}
+
+a{
+    color: orange;
+}
+
+
+.card-image{
+    height: 200px !important;
+}
+
+div.nav-wrapper {
+    background-color: #000000 !important;
+    border-bottom: 3px solid orange;
+  }
+
+  button{
+      background: orangered !important;
+      color: black !important;
+  }
+
+  footer.page-footer{
+      background: #303030;
+  }
+
+  input{
+      color: #C0C0C0 !important;
+  }
+   /* label color */
+   .input-field label {
+    color: #C0C0C0;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: orange !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid orange !important;
+    box-shadow: 0 1px 0 0 darkorange !important;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 darkred !important;
+  }
+
+  #textarea1{
+    color: #C0C0C0 !important;
+  }
+
+  label[for="textarea1"].active{
+      color: orange !important;
+  }
+
+  #textarea1:focus{
+    border-bottom: 1px solid orange !important;
+    box-shadow: 0 1px 0 0 darkorange !important;
+  }
+
+  textarea[for="textarea1"].active:valid{
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 darkred !important;
+  }
+
+  nav ul li:hover {
+    background-color: orange;
+ }
+
+ .sidenav{
+     background-color: #000000 !important;
+ }
+
+ ul.sidenav li a{
+     color: white;
+     border-bottom: 1px solid orange;
+ }
+
+ ul.sidenav li:hover {
+    background-color: orange !important;
+ }
+
+ div.nav-wrapper a{
+     font-size: 20px;
+ }
